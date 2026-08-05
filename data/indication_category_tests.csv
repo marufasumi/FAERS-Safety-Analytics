@@ -1,0 +1,9 @@
+Variable,Test,Statistic,Degrees of Freedom,p-value
+flag_type2_diabetes,Chi-square,691.6255321099525,1,1.980627497659501e-152
+flag_type1_diabetes,Chi-square,12.213142565650962,1,0.00047454032465397495
+flag_any_diabetes,Chi-square,367.30005814601594,1,7.245375196703579e-82
+flag_hypertension,Chi-square,3212.107411147807,1,0.0
+flag_chronic_kidney_disease,Chi-square,45.14838268918062,1,1.826564891653324e-11
+flag_heart_failure,Chi-square,487.1414580888052,1,5.967630870890299e-108
+flag_obesity,Chi-square,6.136074134528608,1,0.01324510601023338
+flag_unknown_indication,Chi-square,624.2454799025929,1,8.92042968627834e-138

@@ -1,0 +1,3 @@
+Variable,Test,Statistic,p-value
+age_years,Welch t-test,-36.57995767350041,4.744660457478679e-292
+weight_kg,Welch t-test,19.893652511222058,1.3388891691507846e-87

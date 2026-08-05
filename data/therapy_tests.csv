@@ -1,0 +1,7 @@
+Variable,Test,Statistic,p-value
+total_therapies,Mann-Whitney U,15955310697.0,0.0
+num_therapies_with_duration,Mann-Whitney U,17556061983.0,0.0
+mean_therapy_duration_days,Mann-Whitney U,17567233025.0,0.0
+median_therapy_duration_days,Mann-Whitney U,17578299659.5,0.0
+min_therapy_duration_days,Mann-Whitney U,17610720238.5,0.0
+max_therapy_duration_days,Mann-Whitney U,17559351692.5,0.0

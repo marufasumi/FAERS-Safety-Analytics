@@ -1,0 +1,3 @@
+Variable,Test,Statistic,p-value
+total_reactions,Mann-Whitney U,16300309917.0,0.0
+num_unique_reactions,Mann-Whitney U,16300694671.0,0.0

@@ -1,0 +1,3 @@
+Variable,Test,Statistic,p-value
+total_indications,Mann-Whitney U,15254654485.5,0.0
+num_unique_indications,Mann-Whitney U,16796777221.0,0.0

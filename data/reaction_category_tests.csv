@@ -1,0 +1,7 @@
+Variable,Test,Statistic,Degrees of Freedom,p-value
+flag_AKI,Chi-square,5348.8042244210355,1,0.0
+flag_lactic_acidosis,Chi-square,609.0284408319083,1,1.8199753108415393e-134
+flag_hypoglycemia,Chi-square,280.25307297763004,1,6.613741856062657e-63
+flag_DKA,Chi-square,501.20752892310674,1,5.190832347497727e-111
+flag_genital_infection,Chi-square,38.773419950315514,1,4.7596511002884e-10
+flag_amputation,Chi-square,80.17218433315382,1,3.4316414908211823e-19

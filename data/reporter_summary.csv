@@ -1,0 +1,13 @@
+Group,Variable,Count,Mean,Standard_Deviation,Median,Minimum,Maximum
+Overall,num_reporter_sources,406184,0.03,0.173,0.0,0,2
+Overall,has_health_professional_report,406184,0.02,0.141,0.0,0,1
+Overall,has_consumer_report,406184,0.01,0.099,0.0,0,1
+Overall,has_foreign_report,406184,0.0,0.014,0.0,0,1
+Non-serious,num_reporter_sources,183820,0.03,0.171,0.0,0,2
+Non-serious,has_health_professional_report,183820,0.019,0.136,0.0,0,1
+Non-serious,has_consumer_report,183820,0.011,0.105,0.0,0,1
+Non-serious,has_foreign_report,183820,0.0,0.01,0.0,0,1
+Serious,num_reporter_sources,222364,0.031,0.175,0.0,0,2
+Serious,has_health_professional_report,222364,0.022,0.146,0.0,0,1
+Serious,has_consumer_report,222364,0.009,0.093,0.0,0,1
+Serious,has_foreign_report,222364,0.0,0.016,0.0,0,1

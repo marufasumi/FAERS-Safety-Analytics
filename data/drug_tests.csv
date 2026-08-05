@@ -1,0 +1,7 @@
+Variable,Test,Statistic,p-value
+total_drugs,Mann-Whitney U,14848177072.5,0.0
+num_unique_drugs,Mann-Whitney U,13525564255.5,0.0
+num_primary_suspect,Mann-Whitney U,20434720882.0,0.002780023668852868
+num_secondary_suspect,Mann-Whitney U,16180351727.5,0.0
+num_concomitant,Mann-Whitney U,16592702402.0,0.0
+num_interacting,Mann-Whitney U,20258272242.0,2.4558902359203433e-297
