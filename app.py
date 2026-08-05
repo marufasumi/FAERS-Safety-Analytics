@@ -94,9 +94,11 @@ st.markdown(
 
 render_info_box(
     """
-    This application summarizes the complete ISYE 7406 project, including
-    data preparation, exploratory analysis, statistical testing, supervised
-    learning, unsupervised learning, and interactive model inference.
+    This portfolio application demonstrates an end-to-end machine learning
+    pipeline for analyzing FDA Adverse Event Reporting System (FAERS) data.
+    It showcases data engineering, exploratory analysis, statistical
+    learning, machine learning, clustering, and real-time prediction of
+    serious adverse drug event reports.
     """
 )
 
