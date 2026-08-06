@@ -224,7 +224,7 @@ This project is intended for educational and portfolio purposes only. Prediction
 
 # Author
 
-**Abdullah Al Hadi**
+**Marufa Sultana Sumi**
 
 - GitHub: https://github.com/marufasumi
 - LinkedIn: *(Add your LinkedIn URL)*
