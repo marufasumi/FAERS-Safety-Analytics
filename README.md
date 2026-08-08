@@ -5,10 +5,9 @@
 ### End-to-End Machine Learning Pipeline for Pharmacovigilance
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/marufasumi/FAERS-Safety-Analytics)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-](#)
-[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)]
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](#)
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#)
 
 </div>
 
@@ -20,13 +19,18 @@
 
 FAERS Safety Analytics is an end-to-end machine learning project that predicts whether an FDA adverse drug event report is classified as **serious**.
 
-The project demonstrates a complete data science workflow, including relational data integration, feature engineering, exploratory data analysis, statistical hypothesis testing, supervised learning, unsupervised clustering, and deployment through an interactive Streamlit application.
+The project demonstrates the complete data science lifecycle, including relational data integration, feature engineering, exploratory data analysis, statistical hypothesis testing, supervised learning, unsupervised clustering, and deployment through an interactive Streamlit application.
 
 ---
 
 <p>
 <img src="https://img.shields.io/badge/🧠%20Tech%20Stack-7C3AED?style=for-the-badge"/>
 </p>
+
+<table>
+<tr>
+
+<td width="55%" valign="top">
 
 | Area | Technologies |
 |------|--------------|
@@ -38,7 +42,9 @@ The project demonstrates a complete data science workflow, including relational 
 | **Dashboard** | Streamlit |
 | **Version Control** | Git, GitHub |
 
-<br>
+</td>
+
+<td width="45%" valign="top">
 
 <p align="center">
 
@@ -54,7 +60,14 @@ The project demonstrates a complete data science workflow, including relational 
 
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit"/>
 
+<img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git"/>
+
 </p>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -66,20 +79,58 @@ The project demonstrates a complete data science workflow, including relational 
 <img src="assets/workflow.png" width="950">
 </p>
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/Reports-406,184-blue?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Features-49-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Models-9-orange?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Best%20Accuracy-92.6%25-red?style=for-the-badge"/>
+
+</p>
+
 ---
 
 <p>
-<img src="https://img.shields.io/badge/📊%20Dataset%20Summary-F97316?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📊%20Project%20Summary-F97316?style=for-the-badge"/>
 </p>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### Dataset Summary
 
 | Item | Value |
 |------|------:|
 | Source | FDA FAERS |
 | Reports | **406,184** |
-| Predictor Variables | **49** |
+| Predictors | **49** |
 | Target | Serious vs Non-serious |
-| Machine Learning Models | **9** |
+| ML Models | **9** |
 | Clusters | **7** |
+
+</td>
+
+<td width="50%" valign="top">
+
+### Best Model
+
+| Metric | Value |
+|------|------:|
+| Model | **Random Forest ⭐** |
+| Accuracy | **92.6%** |
+| ROC-AUC | **0.968** |
+| F1 Score | **0.932** |
+| CV Accuracy | **92.4%** |
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -87,7 +138,12 @@ The project demonstrates a complete data science workflow, including relational 
 <img src="https://img.shields.io/badge/🤖%20Machine%20Learning-DC2626?style=for-the-badge"/>
 </p>
 
-The project evaluates nine supervised learning algorithms:
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### Models Evaluated
 
 - Logistic Regression
 - Linear Discriminant Analysis
@@ -95,25 +151,34 @@ The project evaluates nine supervised learning algorithms:
 - Gaussian Naive Bayes
 - K-Nearest Neighbors
 - Decision Tree
-- Random Forest ⭐
+- ⭐ Random Forest
 - Support Vector Machine
 - Neural Network (MLP)
 
-Random Forest achieved the highest predictive performance.
+</td>
 
----
+<td width="50%" valign="top">
 
-<p>
-<img src="https://img.shields.io/badge/🏆%20Model%20Performance-16A34A?style=for-the-badge"/>
-</p>
+### Project Highlights
 
-| Metric | Result |
-|---------|-------:|
-| Best Model | Random Forest |
-| Accuracy | **92.6%** |
-| ROC-AUC | **0.968** |
-| F1 Score | **0.932** |
-| Cross Validation Accuracy | **92.4%** |
+✅ Multi-table relational data integration
+
+✅ Feature engineering
+
+✅ Exploratory Data Analysis
+
+✅ Statistical hypothesis testing
+
+✅ Model comparison
+
+✅ K-Means clustering
+
+✅ Interactive prediction dashboard
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -127,7 +192,7 @@ The interactive application includes:
 - Exploratory Data Analysis
 - Statistical Analysis
 - Machine Learning Results
-- K-Means Clustering
+- Clustering Analysis
 - Serious Event Prediction
 
 > **Live demo will be available after project publication.**
@@ -146,6 +211,10 @@ FAERS-Safety-Analytics/
 ├── README.md
 │
 ├── assets/
+│   ├── workflow.png
+│   ├── screenshots/
+│   └── figures/
+│
 ├── data/
 ├── models/
 ├── notebooks/
@@ -165,7 +234,7 @@ Clone the repository
 git clone https://github.com/marufasumi/FAERS-Safety-Analytics.git
 ```
 
-Navigate to the project
+Move into the project
 
 ```bash
 cd FAERS-Safety-Analytics
@@ -186,7 +255,7 @@ streamlit run app.py
 ---
 
 <p>
-<img src="https://img.shields.io/badge/🔮%20Future%20Roadmap-F59E0B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🔮%20Roadmap-F59E0B?style=for-the-badge"/>
 </p>
 
 - Azure Machine Learning
@@ -196,7 +265,7 @@ streamlit run app.py
 - GitHub Actions CI/CD
 - REST API
 - Model Monitoring
-- Automated Retraining Pipeline
+- Automated Retraining
 
 ---
 
@@ -214,7 +283,7 @@ https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html
 <img src="https://img.shields.io/badge/⚠️%20Disclaimer-B91C1C?style=for-the-badge"/>
 </p>
 
-This project is intended for portfolio and educational purposes. Predictions generated by the machine learning models should **not** be used for clinical decision-making or patient care.
+This project is intended for portfolio and educational purposes only. Predictions generated by the machine learning models should **not** be used for clinical decision-making.
 
 ---
 
