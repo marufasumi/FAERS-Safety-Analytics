@@ -127,6 +127,11 @@ The workflow combines **relational data integration, feature engineering, EDA, s
 
 ---
 
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
 <p>
 <img src="https://img.shields.io/badge/🖥️%20Streamlit%20Application-0EA5E9?style=for-the-badge"/>
 </p>
@@ -141,13 +146,15 @@ The application provides:
 
 > 🚀 **Live deployment coming soon**
 
----
+</td>
+
+<td width="50%" valign="top">
 
 <p>
 <img src="https://img.shields.io/badge/📂%20Repository%20Structure-8B5CF6?style=for-the-badge"/>
 </p>
 
-```text
+<pre>
 FAERS-Safety-Analytics/
 ├── app.py
 ├── assets/
@@ -157,10 +164,14 @@ FAERS-Safety-Analytics/
 ├── pages/
 ├── utils/
 └── requirements.txt
-```
+</pre>
+
+</td>
+
+</tr>
+</table>
 
 ---
-
 <p>
 <img src="https://img.shields.io/badge/🚀%20Run%20Locally-2563EB?style=for-the-badge"/>
 </p>
