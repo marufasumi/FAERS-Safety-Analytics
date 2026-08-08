@@ -206,7 +206,25 @@ streamlit run app.py
 <img src="https://img.shields.io/badge/🔮%20Roadmap-F59E0B?style=for-the-badge"/>
 </p>
 
-Azure Machine Learning • MLflow • Model Registry • Docker • GitHub Actions CI/CD • Model Monitoring
+<p align="center">
+
+<img src="https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Model%20Registry-6E40C9?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/REST%20API-009688?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/Model%20Monitoring-FF9800?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/Automated%20Retraining-4CAF50?style=flat-square"/>
+
+</p>
 
 ---
 
