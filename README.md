@@ -1,97 +1,62 @@
 # FDA FAERS Safety Analytics
 
-> End-to-end machine learning pipeline for predicting serious adverse drug event reports using the FDA Adverse Event Reporting System (FAERS).
+> End-to-end machine learning project for predicting serious adverse drug event reports using the FDA Adverse Event Reporting System (FAERS).
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7-orange?logo=scikitlearn)
-![License](https://img.shields.io/badge/License-MIT-green)
+<p align="left">
+  <a href="https://github.com/marufasumi/FAERS-Safety-Analytics">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github">
+  </a>
+  <img src="https://img.shields.io/badge/Live%20Demo-Coming%20Soon-red?style=for-the-badge&logo=streamlit">
+</p>
 
-> 🚀 **Live Demo:** *Coming soon*  
-> 💻 **GitHub Repository:** https://github.com/marufasumi/FAERS-Safety-Analytics
-
----
-
-# Overview
-
-FAERS Safety Analytics is an end-to-end machine learning project that analyzes adverse drug event reports from the **FDA Adverse Event Reporting System (FAERS)**. The project demonstrates the complete data science workflow, including data integration, feature engineering, exploratory data analysis, statistical hypothesis testing, predictive modeling, unsupervised clustering, and deployment through an interactive Streamlit application.
-
-The objective is to predict whether an adverse event report is classified as **serious** using patient demographics, medication characteristics, therapy information, reporting attributes, and engineered clinical features.
+<p>
+<img src="https://img.shields.io/badge/Python-3.13-blue?style=flat-square&logo=python">
+<img src="https://img.shields.io/badge/scikit--learn-1.7-orange?style=flat-square&logo=scikitlearn">
+<img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit">
+<img src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
+</p>
 
 ---
 
-# Features
+# 📌 Project Overview
 
-- End-to-end machine learning workflow
-- Multi-table relational data integration
-- Feature engineering from FDA FAERS data
-- Exploratory data analysis (EDA)
-- Statistical hypothesis testing
-- Machine learning model comparison
-- Random Forest prediction model
-- K-Means clustering analysis
-- Interactive Streamlit dashboard
-- Real-time prediction interface
+This project builds an end-to-end machine learning pipeline using over **406,000 FDA FAERS reports** to predict whether an adverse drug event is classified as **serious**.
+
+The project demonstrates the complete data science lifecycle:
+
+- Data Integration
+- Feature Engineering
+- Exploratory Data Analysis
+- Statistical Hypothesis Testing
+- Machine Learning
+- Model Comparison
+- K-Means Clustering
+- Interactive Streamlit Dashboard
 
 ---
 
-# Dataset
+# 🔄 Workflow
 
-**Source**
+<p align="center">
+  <img src="assets/workflow.png" width="900" alt="FAERS Workflow">
+</p>
 
-FDA Adverse Event Reporting System (FAERS)
+---
 
-The analytical dataset was constructed by integrating multiple relational FAERS tables into a report-level dataset suitable for machine learning.
-
-### Dataset Summary
+# 📊 Dataset
 
 | Item | Value |
 |------|------:|
-| Total Reports | 406,184 |
-| Predictor Variables | 49 |
-| Target Variable | Serious vs Non-serious |
-| Machine Learning Models | 9 |
+| Source | FDA FAERS |
+| Reports | 406,184 |
+| Predictors | 49 |
+| Target | Serious vs Non-serious |
+| Models Evaluated | 9 |
 | Clusters | 7 |
 
 ---
 
-# Machine Learning Workflow
-
-```
-FDA FAERS
-        │
-        ▼
-Data Integration
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-Exploratory Data Analysis
-        │
-        ▼
-Statistical Analysis
-        │
-        ▼
-Machine Learning
-        │
-        ▼
-Model Evaluation
-        │
-        ▼
-K-Means Clustering
-        │
-        ▼
-Streamlit Dashboard
-```
-
-> 📌 A professional architecture diagram will be added in a future update.
-
----
-
-# Machine Learning Models
-
-The following supervised learning models were evaluated:
+# 🤖 Machine Learning Models
 
 - Logistic Regression
 - Linear Discriminant Analysis
@@ -99,18 +64,16 @@ The following supervised learning models were evaluated:
 - Gaussian Naive Bayes
 - K-Nearest Neighbors
 - Decision Tree
-- Random Forest
+- Random Forest ⭐
 - Support Vector Machine
 - Neural Network (MLP)
 
-Random Forest achieved the highest overall predictive performance.
-
 ---
 
-# Results
+# 🏆 Best Model Performance
 
-| Metric | Value |
-|---------|--------:|
+| Metric | Score |
+|---------|-------:|
 | Best Model | Random Forest |
 | Accuracy | **92.6%** |
 | ROC-AUC | **0.968** |
@@ -119,7 +82,22 @@ Random Forest achieved the highest overall predictive performance.
 
 ---
 
-# Repository Structure
+# 🚀 Streamlit Application
+
+The interactive application includes:
+
+- Project Overview
+- Exploratory Data Analysis
+- Statistical Analysis
+- Machine Learning Results
+- Clustering Analysis
+- Serious Event Prediction
+
+> **Public deployment will be available after publication.**
+
+---
+
+# 📂 Repository Structure
 
 ```text
 FAERS-Safety-Analytics/
@@ -138,22 +116,7 @@ FAERS-Safety-Analytics/
 
 ---
 
-# Streamlit Application
-
-The Streamlit application includes:
-
-- Project Overview
-- Exploratory Data Analysis
-- Statistical Analysis
-- Machine Learning Results
-- Clustering Analysis
-- Serious Event Prediction
-
-> 🚀 Public deployment will be available after project publication.
-
----
-
-# Installation
+# 🛠️ Installation
 
 Clone the repository
 
@@ -161,7 +124,7 @@ Clone the repository
 git clone https://github.com/marufasumi/FAERS-Safety-Analytics.git
 ```
 
-Navigate to the project
+Move into the project
 
 ```bash
 cd FAERS-Safety-Analytics
@@ -173,7 +136,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Launch the application
+Run the Streamlit application
 
 ```bash
 streamlit run app.py
@@ -181,7 +144,7 @@ streamlit run app.py
 
 ---
 
-# Technologies
+# 💻 Tech Stack
 
 | Category | Technologies |
 |-----------|--------------|
@@ -195,43 +158,45 @@ streamlit run app.py
 
 ---
 
-# Future Enhancements
+# 🔮 Future Enhancements
 
-- Azure Machine Learning integration
-- MLflow experiment tracking
-- Model registry
-- CI/CD with GitHub Actions
-- Docker containerization
-- REST API deployment
-- Model monitoring
-- Automated retraining pipeline
+- Azure Machine Learning
+- MLflow Experiment Tracking
+- Model Registry
+- GitHub Actions CI/CD
+- Docker
+- REST API
+- Model Monitoring
+- Automated Retraining
 
 ---
 
-# Data Source
-
-U.S. Food and Drug Administration (FDA)
+# 📄 Data Source
 
 **FDA Adverse Event Reporting System (FAERS)**
 
----
-
-# Disclaimer
-
-This project is intended for educational and portfolio purposes only. Predictions generated by the machine learning models should not be used for clinical decision-making or patient care.
+https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html
 
 ---
 
-# Author
+# ⚠️ Disclaimer
+
+This project is intended for portfolio and educational purposes. Model predictions should not be used for clinical decision-making.
+
+---
+
+# 👩‍💻 Author
 
 **Marufa Sultana Sumi**
 
-- GitHub: https://github.com/marufasumi
-- LinkedIn: *(Add your LinkedIn URL)*
-- Portfolio: *(Add your portfolio URL)*
+<p>
+<a href="https://github.com/marufasumi">
+<img src="https://img.shields.io/badge/GitHub-marufasumi-181717?style=for-the-badge&logo=github">
+</a>
+</p>
 
 ---
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
