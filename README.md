@@ -132,6 +132,13 @@ The workflow combines **relational data integration, feature engineering, EDA, s
 
 <td width="50%" valign="top">
 
+---
+
+<table>
+<tr>
+
+<td width="33%" valign="top">
+
 <p>
 <img src="https://img.shields.io/badge/🖥️%20Streamlit%20Application-0EA5E9?style=for-the-badge"/>
 </p>
@@ -148,7 +155,7 @@ The application provides:
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 <p>
 <img src="https://img.shields.io/badge/📂%20Repository%20Structure-8B5CF6?style=for-the-badge"/>
@@ -168,20 +175,30 @@ FAERS-Safety-Analytics/
 
 </td>
 
-</tr>
-</table>
+<td width="34%" valign="top">
 
----
 <p>
 <img src="https://img.shields.io/badge/🚀%20Run%20Locally-2563EB?style=for-the-badge"/>
 </p>
 
-```bash
-git clone https://github.com/marufasumi/FAERS-Safety-Analytics.git
+<pre>
+git clone
+https://github.com/
+marufasumi/
+FAERS-Safety-Analytics.git
+
 cd FAERS-Safety-Analytics
-pip install -r requirements.txt
+
+pip install -r
+requirements.txt
+
 streamlit run app.py
-```
+</pre>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
