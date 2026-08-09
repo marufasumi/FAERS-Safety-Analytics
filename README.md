@@ -5,7 +5,7 @@
 ### End-to-End Machine Learning Pipeline for Pharmacovigilance
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/marufasumi/FAERS-Safety-Analytics)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](#)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://faers-safety-analytics.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](#)
 [![License](https://img.shields.io/badge/License-MIT-16A34A?style=flat-square)](#)
 
