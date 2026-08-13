@@ -151,7 +151,6 @@ The application provides:
 - Clustering Analysis
 - Serious Event Prediction
 
-> 🚀 **Live deployment coming soon**
 
 </td>
 
